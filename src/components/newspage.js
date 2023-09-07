@@ -14,7 +14,7 @@ export default function NewsPage(){
     const [index, setIndex] = useState(4);
     const initialMoreNews = news.slice(2,index)
     const getData = () => {
-        fetch('news.json')
+        fetch('https://raw.githubusercontent.com/igoyalsamarth/valotag/main/public/news.json')
         .then((res) => res.json())
         .then((json) => setNews(json))
         .catch((e) => console.log(e))

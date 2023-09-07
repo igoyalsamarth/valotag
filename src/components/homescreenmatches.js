@@ -10,7 +10,7 @@ export default function HomeScreenMatches(){
 
     const [matches,setMatches] = useState([]);
     const getData = () => {
-        fetch('tournaments.json')
+        fetch('https://raw.githubusercontent.com/igoyalsamarth/valotag/main/public/tournaments.json')
         .then((res) => res.json())
         .then((json) => setMatches(json.map(value => value['tournament-matches'].map(child => ({"tournament-name":value['tournament-name'], ...child})))
                                             .flat()

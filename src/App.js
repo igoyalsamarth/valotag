@@ -2,7 +2,7 @@ import './App.css';
 import logo from './assets/logo.png';
 import logoValo from './assets/logoValo.png'
 import Navbar from './components/navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/home'
 import NewsPage from './components/newspage';
 import TounrnamentsPage from './components/tournamentspage';

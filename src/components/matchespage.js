@@ -12,7 +12,7 @@ export default function MatchesPage(){
     const [index, setIndex] = useState(7);
     const matches = tournaments.slice(0,index);
     const getData = () => {
-        fetch('tournaments.json')
+        fetch('https://raw.githubusercontent.com/igoyalsamarth/valotag/main/public/tournaments.json')
         .then((res) => res.json())
         .then((json) => setTournaments(json.map(value => value['tournament-matches'].map(child => ({"tournament-name":value['tournament-name'], ...child})))
                                             .flat()

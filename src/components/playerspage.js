@@ -11,7 +11,7 @@ export default function PlayersPage(){
     const [index, setIndex] = useState(10)
     const players = playersList.slice(0,index);
     const getData = () => {
-        fetch('players.json')
+        fetch('https://raw.githubusercontent.com/igoyalsamarth/valotag/main/public/players.json')
         .then((res) => res.json())
         .then((json) => setPlayersList(json))
         .catch((e) => console.log(e))
@@ -76,7 +76,7 @@ export default function PlayersPage(){
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
                     <path d="M24.5 16H8.5M16.5 24L16.5 8" stroke="white" strokeWidth="1.65" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className='text-lg font-semibold text-center'> Add new player</p>
+                <p className='text-lg font-semibold text-center'> Add player</p>
             </div>
             <div className="flex flex-col mb-9">
                 <div className="flex flex-row">

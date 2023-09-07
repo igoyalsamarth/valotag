@@ -12,7 +12,7 @@ export default function TounrnamentsPage(){
     const [index, setIndex] = useState(4);
     const tournaments = tournamentsList.slice(0,index);
     const getData = () => {
-        fetch('tournaments.json')
+        fetch('https://raw.githubusercontent.com/igoyalsamarth/valotag/main/public/tournaments.json')
         .then((res) => res.json())
         .then((json) => setTournamentsList(json.sort((a,b) => (dayjs(a['tournament-start-date']).isAfter(dayjs(b['tournament-start-date']))? -1 : 1))))
         .catch((e) => console.log(e))
