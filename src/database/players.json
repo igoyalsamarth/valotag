@@ -1,0 +1,85 @@
+[{
+    "player-serial": 1,
+    "player-name": "Marzil",
+    "player-team": "SARAFA",
+    "player-ranked-stats": {
+        "ranked-leaderboard": 2,
+        "ranked-acs": 234
+    },
+    "player-competitive-stats": {
+        "competitive-acs": 200,
+        "competetive-hsp": 24
+    }
+},{
+    "player-serial": 2,
+    "player-name": "Deadly10",
+    "player-team": "SARAFA",
+    "player-ranked-stats": {
+        "ranked-leaderboard": 5,
+        "ranked-acs": 234
+    },
+    "player-competitive-stats": {
+        "competitive-acs": 207,
+        "competetive-hsp": 24
+    }
+},{
+    "player-serial": 3,
+    "player-name": "tricky",
+    "player-team": "SARAFA",
+    "player-ranked-stats": {
+        "ranked-leaderboard": 3,
+        "ranked-acs": 234
+    },
+    "player-competitive-stats": {
+        "competitive-acs": 229,
+        "competetive-hsp": 24
+    }
+},{
+    "player-serial": 4,
+    "player-name": "DOXZ3R",
+    "player-team": "Aster Army",
+    "player-ranked-stats": {
+        "ranked-leaderboard": 11,
+        "ranked-acs": 234
+    },
+    "player-competitive-stats": {
+        "competitive-acs": 255,
+        "competetive-hsp": 24
+    }
+},{
+    "player-serial": 5,
+    "player-name": "Kohli",
+    "player-team": "Aster Army",
+    "player-ranked-stats": {
+        "ranked-leaderboard": 20,
+        "ranked-acs": 234
+    },
+    "player-competitive-stats": {
+        "competitive-acs": 195,
+        "competetive-hsp": 24
+    }
+},{
+    "player-serial": 6,
+    "player-name": "RvK",
+    "player-team": "Orangutan",
+    "player-ranked-stats": {
+        "ranked-leaderboard": 10,
+        "ranked-acs": 234
+    },
+    "player-competitive-stats": {
+        "competitive-acs": 150,
+        "competetive-hsp": 24
+    }
+},{
+    "player-serial": 7,
+    "player-name": "SkRossi",
+    "player-team": "Global Esports",
+    "player-ranked-stats": {
+        "ranked-leaderboard": 1,
+        "ranked-acs": 234
+    },
+    "player-competitive-stats": {
+        "competitive-acs": 300,
+        "competetive-hsp": 24
+    }
+}]
