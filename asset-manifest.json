@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/valotag/static/css/main.de696dfa.css",
+    "main.js": "/valotag/static/js/main.2ac765b6.js",
+    "static/js/787.aa011cd9.chunk.js": "/valotag/static/js/787.aa011cd9.chunk.js",
+    "static/media/masters.png": "/valotag/static/media/masters.cbb784f7016b37620621.png",
+    "static/media/news-header.jpg": "/valotag/static/media/news-header.87b05dae6be5b2f32961.jpg",
+    "static/media/skrossi.jpg": "/valotag/static/media/skrossi.81d5856143682a82b41b.jpg",
+    "static/media/logo.png": "/valotag/static/media/logo.724ab27aa8e816ce5ab5.png",
+    "static/media/teamLiquidLogo.png": "/valotag/static/media/teamLiquidLogo.ddc8b4567d0119d1f29d.png",
+    "static/media/logoValo.png": "/valotag/static/media/logoValo.8d697cc8efd5f2ae6b9f.png",
+    "static/media/calendar.svg": "/valotag/static/media/calendar.8f280b53ab8205afb95731797a024cbf.svg",
+    "index.html": "/valotag/index.html",
+    "main.de696dfa.css.map": "/valotag/static/css/main.de696dfa.css.map",
+    "main.2ac765b6.js.map": "/valotag/static/js/main.2ac765b6.js.map",
+    "787.aa011cd9.chunk.js.map": "/valotag/static/js/787.aa011cd9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de696dfa.css",
+    "static/js/main.2ac765b6.js"
+  ]
+}
