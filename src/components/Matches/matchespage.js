@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import teamLiquidLogo from '../assets/teamLiquidLogo.png'
+import teamLiquidLogo from '../../assets/teamLiquidLogo.png'
 import dayjs from 'dayjs'
 import RelativeTime from 'dayjs/plugin/relativeTime'
 dayjs.extend(RelativeTime)

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import coverThumbnail from '../assets/news-header.jpg';
-import calendarIcon from '../assets/calendar.svg';
+import coverThumbnail from '../../assets/news-header.jpg';
+import calendarIcon from '../../assets/calendar.svg';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { useEffect, useState } from 'react';

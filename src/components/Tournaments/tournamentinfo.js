@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import tournaments from '../database/tournaments.json'
+import tournaments from '../../database/tournaments.json'
 
 export default function TournamentInfo() {
     const {id} = useParams();

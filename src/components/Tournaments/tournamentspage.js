@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import masterLogo from '../assets/masters.png';
+import masterLogo from '../../assets/masters.png';
 import dayjs from 'dayjs';
 import isBetween from 'dayjs/plugin/isBetween'
 dayjs.extend(isBetween)

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import skrossiImage from '../assets/skrossi.jpg'
+import skrossiImage from '../../assets/skrossi.jpg'
 
 
 export default function PlayersPage(){

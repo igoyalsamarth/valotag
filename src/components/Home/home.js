@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import newsHeader from '../assets/news-header.jpg'
-import calendarIcon from '../assets/calendar.svg'
-import mastersLogo from '../assets/masters.png'
+import newsHeader from '../../assets/news-header.jpg'
+import calendarIcon from '../../assets/calendar.svg'
+import mastersLogo from '../../assets/masters.png'
 //import torunaments from '../database/tournaments.json'
-import news from '../database/news.json'
+import news from '../../database/news.json'
 //import TournamentInfo from "./tournamentinfo";
 import dayjs from "dayjs";
 import relativeTime from 'dayjs/plugin/relativeTime';
+import HomeScreenMatches from "./homescreenmatches";
+import logoValo from '../../assets/logoValo.png'
+
 dayjs.extend(relativeTime)
 
 
@@ -54,7 +57,8 @@ export default function Home(){
     
 
     return(
-        <>
+        <div className="flex gap-4">
+        <div className="flex flex-col w-2/3">
             {HomeBanner()}
             <div className='more-news  flex flex-col mt-8'>
                 <p className="tracking-widest text-[#BFC3C3]">MORE NEWS</p>
@@ -107,6 +111,16 @@ export default function Home(){
                         </div>
                 </div>
             </div>
-        </>
+            </div>
+            <div className='flex flex-col w-1/3'>
+            <div className='flex flex-col gap-4'>
+              <div className='flex text-2xl font-bold bg-[#2C2C2C] rounded-lg py-6 px-4 gap-2 h-[88px] items-center'>
+                <img src={logoValo} alt='Logo' className='w-[20px] h-[20px]'></img>
+                Matches
+              </div>
+                <HomeScreenMatches />
+            </div>
+        </div>
+            </div>
     );
 }

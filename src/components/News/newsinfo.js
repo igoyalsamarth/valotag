@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import news from '../database/news.json'
+import news from '../../database/news.json'
 
 export default function NewsInfo() {
     const {id} = useParams();
